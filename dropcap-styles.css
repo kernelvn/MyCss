@@ -1,0 +1,25 @@
+/* dropcap-styles.css */
+
+p[data-component='paragraph']:nth-of-type(1) > span::first-letter {
+  color: hotpink !important;
+  padding: 0 .3rem;
+  margin: 0 .3rem 0 0;
+  border: 2px solid;
+  border-radius: 8px;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 4rem;
+  float: left;
+  line-height: 0.8;
+}
+
+body,
+header,
+.related-articles,
+.layout-related-articles {
+  color: #5b4636 !important;
+  background-color: #f4ecd8 !important;
+}
+
+p[data-component='paragraph'] {
+  text-align: justify;
+}
